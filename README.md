@@ -1,0 +1,1 @@
+# flask-mi-azure-serverless
