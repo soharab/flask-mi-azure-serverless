@@ -52,8 +52,8 @@ stages:
         source antenv/bin/activate
         make install
         make lint
-       workingDirectory: $(projectRoot)
-       displayName: 'Run lint tests'
+      workingDirectory: $(projectRoot)
+      displayName: "Run lint tests"
 
     - task: ArchiveFiles@2
       displayName: 'Archive files'
