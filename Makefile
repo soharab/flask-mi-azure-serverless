@@ -13,6 +13,7 @@ test:
 
 lint:
 	#hadolint Dockerfile #uncomment to explore linting Dockerfiles
+	export PATH=$PATH:/home/soharabuddin/.flask-ml-azure/bin/python
 	pylint --disable=R,C,W1203 app.py
 
 all: install lint test
